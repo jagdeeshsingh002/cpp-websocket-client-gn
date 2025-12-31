@@ -1,0 +1,11 @@
+executable("cpp_websocket_client") {
+  sources = [
+    "main.cpp",
+  ]
+
+  configs += [ "//build/config/compiler:default" ]
+
+  cflags_cc = [
+    "-std=c++17",
+  ]
+}
